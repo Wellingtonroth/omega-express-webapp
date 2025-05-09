@@ -1,4 +1,4 @@
-# Nutricionista Vanessa Mattos - Website
+# Nutricionista Vanessa Mattos - Omega Express LP
 
 Este é uma landing page profissional da Nutricionista Vanessa Mattos, desenvolvido com Vue.js e Vite. O site apresenta uma interface moderna e responsiva para divulgar os serviços de nutrição e compartilhar histórias de sucesso dos pacientes.
 
