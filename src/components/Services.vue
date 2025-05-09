@@ -1,15 +1,5 @@
 <template>
   <section class="services-section">
-    <div class="service-info">
-      <div class="service-badge online">
-        <span class="icon">🌐</span>
-        <span>O Omega Express é 100% Online!</span>
-      </div>
-      <div class="service-badge presencial">
-        <span class="icon">📍</span>
-        <span>Planos presenciais também disponíveis!</span>
-      </div>
-    </div>
     <h2 class="title">Escolha Seu Plano</h2>
     <p class="subtitle">
       Vamos construir a autoestima e o corpo que você sempre sonhou, com um acompanhamento próximo, prático e 
@@ -46,7 +36,7 @@
         </div>
       </div>
     </div>
-    <CTAButton :text="'Agendar consulta'" />
+    <CTAButton :text="'Iniciar a Consultoria'" />
   </section>
 </template>
 
@@ -67,12 +57,13 @@ const plans = ref([
     ],
     price: [
       {
-        amount: 'R$450',
-        label: 'no PIX',
-      },
-      {
         amount: '2x R$240',
         label: 'no crédito',
+        or: 'ou',
+      },
+      {
+        amount: 'R$450',
+        label: 'no PIX',
       }
     ],
     recommended: false
@@ -89,12 +80,13 @@ const plans = ref([
     ],
     price: [
       {
-        amount: 'R$600',
-        label: 'no PIX',
-      },
-      {
         amount: '3x R$210',
         label: 'no crédito',
+        or: 'ou',
+      },
+      {
+        amount: 'R$600',
+        label: 'no PIX',
       }
     ],
     recommended: true
@@ -108,42 +100,6 @@ const plans = ref([
   padding: 40px 20px 40px 20px;
   text-align: center;
   background: #fff;
-}
-
-.service-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 18px;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
-
-  .service-badge {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 18px;
-    border-radius: 24px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    background: #f4fff8;
-    color: #223a5e;
-
-    .icon {
-      font-size: 1.3em;
-    }
-  }
-
-  .online {
-    background: $color-accent;
-    color: $color-primary-dark;
-  }
-
-  .presencial {
-    background: $color-background-white;
-    color: $color-primary-dark;
-    border: 1.5px solid $color-accent;
-  }
 }
 
 .title {

@@ -24,16 +24,17 @@
 import { ref, computed, onMounted } from 'vue';
 
 const feedbacks = ref([
-  { text: 'A dieta é incrível, super prática e fácil de seguir! Já vejo resultados e me sinto mais confiante.', author: 'Mariana, 28 anos' },
-  { text: 'Adorei o acompanhamento próximo, me senti acolhida em cada etapa do processo.', author: 'Fernanda, 35 anos' },
-  { text: 'Finalmente encontrei um plano alimentar que respeita minha rotina e meus gostos!', author: 'Ana, 42 anos' },
-  { text: 'O plano foi totalmente adaptado ao meu dia a dia, nunca consegui seguir uma dieta tão bem.', author: 'Paula, 31 anos' },
-  { text: 'Recebo muito apoio e incentivo, estou amando!', author: 'Juliana, 26 anos' },
-  { text: 'O app facilita demais acompanhar tudo e manter o foco.', author: 'Renata, 38 anos' },
-  { text: 'Acompanhamento perfeito para quem não tem tempo para consultas presenciais.', author: 'Lívia, 29 anos' },
-  { text: 'Me sinto muito mais saudável e com energia depois do acompanhamento.', author: 'Beatriz, 40 anos' },
-  { text: 'As orientações sobre sono e rotina fizeram toda a diferença pra mim.', author: 'Camila, 33 anos' },
-  { text: 'Senti minha autoestima melhorar muito, recomendo demais!', author: 'Patrícia, 45 anos' },
+  { text: 'Com a ajuda dela, consegui voltar a me olhar no espelho com amor, fiz as pazes com a comida e estou caminhando para conquistar a minha melhor versão!', author: 'Camila, 26 anos' },
+  { text: 'Já voltei a usar algumas blusas que eu adorava que não me serviam mais! Tô bem feliz, e melhor de tudo é que não tenho feito nenhum sacrifício enorme, tá sendo bem tranquilo seguir o plano.', author: 'Suzana, 34 anos' },
+  { text: 'Não é uma dieta pronta que a gente logo esquece, é um amadurecimento em relação a alimentação, é aprender a deixar de lado crenças limitantes e atingir objetivos. Foi um investimento que vai se diluir ao longo da vida, então valeu demais a pena e meu único arrependimento é não ter começado o acompanhamento antes.', author: 'Bruna, 29 anos' },
+  { text: 'Pela primeira vez na vida, depois de vários profissionais (médicos e nutricionistas, só faltou eu ir em benzedeira), meu intestino está funcionando como o intestino de uma pessoa normal. A Vanessa operou milagres!', author: 'Pricila, 44 anos' },
+  { text: 'Tem sido uma ótima experiência, leve. Ela tem um olhar bem humano com seus pacientes, ela entende a pessoa, o que ajuda muito no processo.', author: 'Thais, 36 anos' },
+  { text: 'A minha alimentação melhorou muito desde que comecei a fazer acompanhamento com ela e, como consequência, a alimentação da minha família também. O plano alimentar é personalizado (leva em consideração as nossas preferências alimentares) e o acompanhamento é contínuo, começa na consulta e segue de forma on-line.', author: 'Chaiani, 43 anos' },
+  { text: 'A Vanessa é mais que uma nutri. É psicóloga, professora, investigadora, incentivadora, coach.... A melhor nutri para uma vida real, não idealizada. ', author: 'Jane, 42 anos' },
+  { text: 'Indico para quem deseja realmente aprender a comer e não ficar refém de dietas milagrosas!', author: 'Naiara, 36 anos' },
+  { text: 'A Vanessa é uma profissional exemplar, está me ajudando muito no processo de reeducação alimentar e emagrecimento, além da parte nutricional ela trabalha com uma parte comportamental que com certeza foi essencial para uma virada de chave na minha vida.', author: 'Gisieli, 27 anos' },
+  { text: 'Já fui em outras nutricionistas mas não me motivei a continuar. Já com a Vanessa foi bem diferente, adaptou o plano conforme minha realidade e rotina, levando em conta todos os fatores que envolvem a alimentação muito além do plano alimentar.', author: 'Tuamy, 30 anos' },
+  { text: 'Não existe dieta louca, ou hábitos malucos, nem perda de peso instantânea, e sim uma reeducação alimentar, pois essa é pro resto da vida! E sinto que é isso que vc sempre tenta transparecer e passar, essa essência da importância de fazer as pazes com a alimentação. Essa é sua marca registrada, com certeza!', author: 'Kety, 39 anos' },
 ]);
 
 const currentPage = ref(0);

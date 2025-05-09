@@ -3,12 +3,12 @@
     <div class="background-image"></div>
 
     <div class="hero-content">
-      <span class="crn">CRN: 00000</span>
+      <span class="crn">CRN10 - 7189</span>
       <h1 class="nutritionist-name">Nutricionista<br />
         <strong>Vanessa Mattos</strong>
       </h1>
-      <p class="description">Emagrecimento, Performance, Bem-estar, Saúde e Qualidade de Vida</p>
-      <CTAButton :text="'Agende a consulta Online!'" />
+      <p class="description">Emagrecimento, Performance e Qualidade de Vida</p>
+      <CTAButton :text="'Comece a Consultoria Agora!'" />
     </div>
   </section>
 </template>

@@ -28,7 +28,7 @@ import { ref } from 'vue';
 const faqs = ref([
   {
     question: 'Preciso fazer chamada de vídeo para a consulta?',
-    answer: 'Não! Todo o acompanhamento é feito de forma assíncrona, com formulários, mensagens no WhatsApp e pelo aplicativo.',
+    answer: 'Não, a consultoria é para quem preza por praticidade! Todo o acompanhamento é feito através de formulários, mensagens no WhatsApp e pelo aplicativo.',
   },
   {
     question: 'Em quanto tempo recebo meu plano?',
@@ -39,12 +39,8 @@ const faqs = ref([
     answer: 'Sim! Temos um plantão de dúvidas semanal pelo WhatsApp, toda quinta-feira.',
   },
   {
-    question: 'O acompanhamento inclui treino?',
-    answer: 'O acompanhamento é focado em nutrição, mas posso te orientar sobre organização de rotina, sono e estratégias de bem-estar.',
-  },
-  {
     question: 'Como funciona o aplicativo?',
-    answer: 'O aplicativo serve como diário alimentar, onde você registra suas refeições e acompanha substituições para variar seu cardápio.',
+    answer: 'Durante o acompanhamento você terá acesso ao aplicativo, onde terá na palma da sua mão, acesso ao plano alimentar, receitas, orientações. E também poderá registrar suas refeições no diário alimentar, recebendo o feedback da nutri!',
   },
 ]);
 
