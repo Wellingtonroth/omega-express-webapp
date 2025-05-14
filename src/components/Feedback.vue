@@ -1,7 +1,7 @@
 <template>
   <section ref="sectionRef" class="feedback-section fade-in">
     <div class="container">
-      <h2 class="title">Histórias de Sucesso</h2>
+      <h2 class="title" id="historias-de-sucesso">Histórias de Sucesso</h2>
       <div class="feedback-grid">
         <div
           class="feedback-card"
