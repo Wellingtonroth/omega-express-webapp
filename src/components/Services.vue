@@ -1,6 +1,6 @@
 <template>
   <section class="services-section">
-    <h2 class="title">Escolha Seu Plano</h2>
+    <h2 class="title" id="planos">Escolha Seu Plano</h2>
     <p class="subtitle">
       Vamos construir a autoestima e o corpo que você sempre sonhou, com um acompanhamento próximo, prático e 
       totalmente individualizado!

@@ -1,7 +1,7 @@
 <template>
   <section class="omega-express-section fade-in">
     <div class="container">
-      <h2 class="title">Ômega Express</h2>
+      <h2 class="title" id="omega-express">Ômega Express</h2>
       <div class="omega-boxes">
         <div class="omega-box">
           <img class="omega-icon" src="/assets/dieta.svg" alt="Dieta dos sonhos" />

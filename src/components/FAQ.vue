@@ -1,7 +1,7 @@
 <template>
   <section class="faq-section">
     <div class="container">
-      <h2 class="title">Perguntas Frequentes</h2>
+      <h2 class="title" id="faq">Perguntas Frequentes</h2>
 
       <div class="faq-item" v-for="(item, index) in faqs" :key="index">
         <div class="faq-question" @click="toggle(index)">
