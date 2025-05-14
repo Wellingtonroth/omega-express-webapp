@@ -11,7 +11,7 @@ defineProps({
 
 const redirectToWhatsApp = () => {
   const phoneNumber = '48984847235';
-  const message = 'Olá, gostaria de mais informações sobre o Método Ômega';
+  const message = 'Olá, quero mais informações sobre Ômega Express';
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
 };
