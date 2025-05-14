@@ -10,6 +10,12 @@ defineProps({
 });
 
 const redirectToWhatsApp = () => {
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-16811814398/ACEcCIOT-vMZEP7bv9A-'
+    });
+  }
+
   const phoneNumber = '48984847235';
   const message = 'Olá, quero mais informações sobre Ômega Express';
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
