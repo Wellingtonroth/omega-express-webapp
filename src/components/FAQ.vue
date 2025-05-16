@@ -47,6 +47,7 @@ const faqs = ref([
 const activeIndex = ref(null);
 
 const toggle = (index) => {
+  console.log(index);
   activeIndex.value = activeIndex.value === index ? null : index;
 }
 </script>
